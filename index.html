@@ -1,0 +1,101 @@
+---
+search_exclude: true
+title: Practice Nexus
+image: 
+---
+{% include navigation.html %}
+<style>
+    body {
+        font-family: 'Roboto Flex', sans-serif;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        background-color: #fee3c3;
+        scroll-behavior: smooth;
+    }
+
+    .text-title {
+        color: black
+    }
+
+    .position-title-y{
+        padding-top:6rem;
+        padding-bottom:3rem;
+    }
+
+    .position-title-x{
+        padding-right:3rem;
+        padding-left:3rem;
+    }
+
+    .auto{
+        margin-right:auto;
+        margin-left:auto;
+    }
+    .position-subtitle-y{
+        padding-top:3rem;
+        padding-bottom:3rem;
+    }
+    
+    .btn-primary{color:#000000;background-color:#fee3c3;border-color:#fee3c3}.btn-primary:hover{color:#fff;background-color:#fee3c3;border-color:#fee3c3}.btn-check:focus+.btn-primary,.btn-primary:focus{color:#fff;background-color:#fee3c3;border-color:#fee3c3;box-shadow:0 0 0 .25rem rgba(49,132,253,.5)}.btn-check:active+.btn-primary,.btn-check:checked+.btn-primary,.btn-primary.active,.btn-primary:active,.show>.btn-primary.dropdown-toggle{color:#fff;background-color:#0a58ca;border-color:#0a53be}.btn-check:active+.btn-primary:focus,.btn-check:checked+.btn-primary:focus,.btn-primary.active:focus,.btn-primary:active:focus,.show>.btn-primary.dropdown-toggle:focus{box-shadow:0 0 0 .25rem rgba(49,132,253,.5)}.btn-primary.disabled,.btn-primary:disabled{color:#fff;background-color:#fee3c3;border-color:#fee3c3}
+
+    .card-text:last-child{
+        margin-bottom:0;
+    }
+    .score-button{
+        height:50px;
+        width:150px;
+        margin:2rem;
+        background-color: #fee3c3;
+    }
+    .score-button:hover{
+        background-color: #f7c78d;
+    }
+</style>
+<!-- Start of body content specific to page -->
+<div class="position-title-x position-title-y auto">
+    <center> <h1 class="text-title"><strong>Studying</strong></h1> </center>
+    <center><h1 class="text-title"><strong>Starts</strong> Here!</h1></center>
+    <div class="position-title-x position-subtitle-y auto">
+        <center><h5 class="text-title">Practice your skills here!</h5>
+    </div>
+    <div class="row position-title-y">
+        <div class="col-4">
+            <div class="card">
+                <img class="card-img-top" src="/PracticeNexus/images/math.png" alt="Math" height="250">
+                <div class="card-body">
+                <h5 class="card-title">Math Quiz</h5>
+                <p class="card-text">
+                    Here is a quiz on math for you to practice your skills!
+                </p>
+                <button onclick="window.location.href='https://muffinman1287.github.io/PracticeNexus/mathquiz/'" class="score-button">Click to begin</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img class="card-img-top" src="/PracticeNexus/images/geography.jpeg" alt="Geography" height="250">
+                <div class="card-body">
+                <h5 class="card-title">Geography Quiz</h5>
+                <p class="card-text">
+                    Practice your geography skills with this quiz!
+                </p>
+                <button onclick="window.location.href='https://muffinman1287.github.io/PracticeNexus/geoquiz/'" class="score-button">Click to begin</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img class="card-img-top" src="/PracticeNexus/images/collegeboard.jpeg" alt="Geography" height="250">
+                <div class="card-body">
+                <h5 class="card-title">SAT Quiz</h5>
+                <p class="card-text">
+                    Practice your SAT skills with this quiz!
+                </p>
+                <button onclick="window.location.href='https://muffinman1287.github.io/PracticeNexus/satquiz/'" class="score-button">Click to begin</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
